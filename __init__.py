@@ -1,0 +1,1 @@
+"""Async Kafka event pipeline."""
