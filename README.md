@@ -1,5 +1,7 @@
 # kafka-event-pipeline
 
+![CI](https://github.com/geethika-chigurupati/kafka-event-pipeline/actions/workflows/ci.yml/badge.svg)
+
 An async Python pipeline that reads transaction events from Kafka, validates them,
 and writes them to PostgreSQL. Bad messages are retried or routed to a dead-letter topic
 instead of crashing the consumer.
